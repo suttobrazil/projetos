@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="calculadora">
+    <input type="text" id="inserir" readonly>
+    <button onclick="inserirPraExibir('7')">7</button>
+    <button onclick="inserirPraExibir('8')">8</button>
+    <button onclick="inserirPraExibir('9')">9</button>
+    <button class="operador" onclick="inserirPraExibir('+')">+</button>
+    <br>
+    <button onclick="inserirPraExibir('4')">4</button>
+    <button onclick="inserirPraExibir('5')">5</button>
+    <button onclick="inserirPraExibir('6')">6</button>
+    <button class="operador" onclick="inserirPraExibir('-')">-</button>
+    <br>
+    <button onclick="inserirPraExibir('1')">1</button>
+    <button onclick="inserirPraExibir('2')">2</button>
+    <button onclick="inserirPraExibir('3')">3</button>
+    <button class="operador" onclick="inserirPraExibir('*')">*</button>
+    <br>
+    <button onclick="inserirPraExibir('0')">0</button>
+    <button onclick="limparExibicao()">C</button>
+    <button onclick="calcular()">=</button>
+    <button class="operador" onclick="inserirPraExibir('/')">/</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
